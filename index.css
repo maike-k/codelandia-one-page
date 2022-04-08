@@ -216,7 +216,7 @@ section {
 
   .img img {
     max-width: 100%;
-    max-height: 100vh;
+    max-height: 300px;
   }
 
   .gallery-grid {
@@ -247,6 +247,21 @@ section {
 
   .form-contant button {
     margin: 1.87em 0 2.5em;
+  }
+
+  .form-contant .input input{
+    width: 23.37em;
+    height: 3.75em
+  }
+
+  .form-contant .input textarea{
+    width: 23.37em;
+    height: 9.75em
+  }
+
+  .form-contant .button {
+    width: 16em;
+    height: 3.5em;
   }
 }
 
