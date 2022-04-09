@@ -253,13 +253,15 @@ section {
     width: 23.37em;
     height: 3.75em;
     padding: 10px;
+    border: none;
+
   }
 
   .form-contant .input textarea{
     width: 23.37em;
     height: 9.75em;
     padding: 10px;
-
+    border: none;
   }
 
   .form-contant .button {
