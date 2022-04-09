@@ -214,7 +214,7 @@ section {
     padding: 3.43em 1.25em;
   }
 
-  .img img {
+  .container .img img {
     max-width: 100vw;
     max-height: 100vh;
   }
@@ -251,12 +251,15 @@ section {
 
   .form-contant .input input{
     width: 23.37em;
-    height: 3.75em
+    height: 3.75em;
+    padding: 10px;
   }
 
   .form-contant .input textarea{
     width: 23.37em;
-    height: 9.75em
+    height: 9.75em;
+    padding: 10px;
+
   }
 
   .form-contant .button {
