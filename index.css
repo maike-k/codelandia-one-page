@@ -8,6 +8,7 @@ body {
   background: #d7d5ff;
 }
 
+
 .content {
   display: flex;
   align-items: center;
@@ -161,8 +162,9 @@ section {
   width: 29.37em;
   height: 4.06em;
   border-radius: 5px;
-  border: 0;
+  border: none;
   margin-top: 1em;
+  padding: 10px;
 }
 
 .form-contant .input input::placeholder {
@@ -178,7 +180,8 @@ section {
   height: 10.31em;
   resize: none;
   margin-top: 1em;
-  border: 0;
+  border: none;
+  padding: 10px;
 }
 
 .form-contant .input textarea::placeholder {
@@ -203,7 +206,7 @@ section {
   margin: 1.87em 0 5em;
 }
 
-@media screen and (min-width: 350px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -254,7 +257,6 @@ section {
     height: 3.75em;
     padding: 10px;
     border: none;
-
   }
 
   .form-contant .input textarea{
